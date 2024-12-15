@@ -21,7 +21,12 @@ h1{
   color: whitesmoke;
 }
 .button-container{
-  background-color: black;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns, each takes equal space */
+  gap: 5px; /* space between buttons */
+  padding: 10px;
+  padding-left: none;
 }
 .button{
   color: #e1a0ee;
